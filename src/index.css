@@ -1,13 +1,24 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(35deg, rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)),
+    url("./Components/image/world-map-detailed.jpg");
+  background-size: 100%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.form-control {
+  width: 500px !important;
+  height: 70px;
+}
+.data-view {
+  display: flex;
+  justify-content: center;
+}
+.my-nav-body {
+  background-color: black;
+}
+.county-name {
+  color: red;
+}
+.county-count {
+  font-size: 22px;
+  color: royalblue;
 }
